@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/leighkirky/homeOfficeCodingChallenge/issues"
   },
-  "homepage": "https://github.com/leighkirky/homeOfficeCodingChallenge#readme"
+  "homepage": "https://github.com/leighkirky/homeOfficeCodingChallenge#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
 }
