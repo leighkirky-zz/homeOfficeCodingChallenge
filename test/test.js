@@ -1,4 +1,5 @@
 var expect = require('chai').expect;
+var codec = require('../index.js');
 
 
 describe('encode', function(){
