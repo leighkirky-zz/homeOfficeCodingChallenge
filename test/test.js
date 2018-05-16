@@ -18,4 +18,7 @@ describe('decode', function(){
 	it('function should exist', function(){
 		expect(codec.decode).to.exist;
 	})
+	it('should return character A for input character D', function(){
+	expect(codec.decode('D')).to.equal('A');
+	})
 });
