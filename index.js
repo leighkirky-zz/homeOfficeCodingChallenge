@@ -14,6 +14,7 @@ function encode(stringToEncode) {
 
 function decode(stringToDecode) {
 
+	return String.fromCharCode((stringToDecode.charCodeAt() - 3))
 
 };
 
