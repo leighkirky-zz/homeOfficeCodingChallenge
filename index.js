@@ -12,4 +12,10 @@ function encode(stringToEncode) {
 
 };
 
+function decode(stringToDecode) {
+
+
+};
+
 exports.encode = encode;
+exports.decode = decode;
