@@ -21,4 +21,7 @@ describe('decode', function(){
 	it('should return character A for input character D', function(){
 	expect(codec.decode('D')).to.equal('A');
 	})
+	it('should return string HELLO for input string KHOOR', function(){
+	expect(codec.decode('KHOOR')).to.equal('HELLO');
+	})
 });
