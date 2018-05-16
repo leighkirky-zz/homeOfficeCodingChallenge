@@ -13,3 +13,9 @@ describe('encode', function(){
 		expect(codec.encode('HELLO')).to.equal('KHOOR');
 	})
 });
+
+describe('decode', function(){
+	it('function should exist', function(){
+		expect(codec.decode).to.exist;
+	})
+});
